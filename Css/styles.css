@@ -1,0 +1,47 @@
+body{
+	background: #263238;
+}
+header{
+ background: #607d8b;
+}
+footer{
+	background: #ef5350;	
+}
+footer h2,p{
+	text-align: center;
+}
+h2, p{
+	margin:0;
+	padding:10px;
+}
+
+.main{
+width: auto;
+height: auto;
+background: #37474f;
+
+}
+.face{
+  width:100px;
+
+
+}
+
+.insta{
+  width:100px;
+}
+
+.copy{
+	text-align: center;
+}
+
+#slider{
+	height: auto;
+}
+#slider img{
+	display: none;
+
+}
+#slider img:nth-child(1){
+	display: block;
+}
