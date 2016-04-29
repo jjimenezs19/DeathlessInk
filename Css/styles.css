@@ -23,9 +23,12 @@ background: #37474f;
 }
 .face{
   width:100px;
-
-
 }
+
+/*.social {
+	align-items: center;
+	display: flex;
+}*/
 
 .insta{
   width:100px;
@@ -72,13 +75,14 @@ background: #37474f;
 
 nav ul li{
 	display: inline;
+	margin: 5px;
 
 }
 
 nav ul li a{
 	color:#000;
 	text-decoration: none;
-	padding: 10px;
+	padding: 5px;
 	font-size: 20px;
 	border-radius: 3px;
 
@@ -86,7 +90,7 @@ nav ul li a{
 nav ul li a:hover{
 	color:#fff;
 	text-decoration: none;
-	padding: 10px;
+	padding: 5px;
 	background: #ef5350;
 
 }
@@ -103,24 +107,24 @@ nav{
 .retra{
 	width: auto;
 	height: 250px;
-	border:solid  #fff;
+
 	margin-top: 30px;
 }
 .color{
 	width: auto;
 	height: 250px;
-	border:solid  #fff;
+
 	margin-top: 30px;
 }
 .black{
 	width: auto;
 	height: 250px;
-	border:solid  #fff;
+
 	margin-top: 30px;
 }
 .japo{
 	/*width: auto;*/
 	height: 250px;
-	border:solid  #fff;
+
 	margin-top: 30px;
 }
