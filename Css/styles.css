@@ -37,6 +37,7 @@ background: #37474f;
 
 #slider{
 	height: auto;
+	
 }
 #slider img{
 	display: none;
@@ -44,4 +45,82 @@ background: #37474f;
 }
 #slider img:nth-child(1){
 	display: block;
+}
+.jero{
+	width: 250px;
+	float:left;
+	margin-right:10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	position: relative;
+}
+
+.bio p {
+	font-size:16px;
+	color:#fff;
+	text-align: justify;
+	margin-right: 15px;
+}
+.bio h1{
+	text-align:  center;
+}
+.top h2{
+	text-align: center;
+	font-size: 60px;
+	padding:20px;
+}
+
+nav ul li{
+	display: inline;
+
+}
+
+nav ul li a{
+	color:#000;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 3px;
+
+}
+nav ul li a:hover{
+	color:#fff;
+	text-decoration: none;
+	padding: 10px;
+	background: #ef5350;
+
+}
+nav{
+	text-align: center;
+}
+.galerias{
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin:0;
+
+}
+.retra{
+	width: auto;
+	height: 250px;
+	border:solid  #fff;
+	margin-top: 30px;
+}
+.color{
+	width: auto;
+	height: 250px;
+	border:solid  #fff;
+	margin-top: 30px;
+}
+.black{
+	width: auto;
+	height: 250px;
+	border:solid  #fff;
+	margin-top: 30px;
+}
+.japo{
+	/*width: auto;*/
+	height: 250px;
+	border:solid  #fff;
+	margin-top: 30px;
 }
