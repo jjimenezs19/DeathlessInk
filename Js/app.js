@@ -3,6 +3,8 @@ $(document).on("ready", main);
 
 function main(){
 	var control = setInterval(cambiarSlider, 15000);
+	slick();
+	
 }
 
 function cambiarSlider(){
@@ -12,4 +14,14 @@ function cambiarSlider(){
 	}
 	$("#slider img").hide();
 	$("#slider img").eq(i).fadeIn("medium");
+}
+
+function slick(){
+	$('.slick').slick({
+  		infinite: true,
+  		autoplay: true,
+  		autoplaySpeed: 5000,
+  		slidesToShow: 4,
+  		slidesToScroll: 4
+	});
 }
