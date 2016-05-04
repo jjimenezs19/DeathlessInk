@@ -1,4 +1,4 @@
-body{
+.main{
 	background: #263238;
 }
 header{
@@ -15,20 +15,15 @@ h2, p{
 	padding:10px;
 }
 
-.main{
-width: auto;
-height: auto;
+.full, .sli{
+
 background: #37474f;
+
 
 }
 .face{
   width:100px;
 }
-
-/*.social {
-	align-items: center;
-	display: flex;
-}*/
 
 .insta{
   width:100px;
@@ -40,6 +35,7 @@ background: #37474f;
 
 #slider{
 	height: auto;
+	padding: 0 !important;
 	
 }
 #slider img{
@@ -48,14 +44,6 @@ background: #37474f;
 }
 #slider img:nth-child(1){
 	display: block;
-}
-.jero{
-	width: 250px;
-	float:left;
-	margin-right:10px;
-	margin-bottom: 10px;
-	border-radius: 3px;
-	position: relative;
 }
 
 .bio p {
@@ -97,34 +85,6 @@ nav ul li a:hover{
 nav{
 	text-align: center;
 }
-.galerias{
-	width: auto;
-	height: auto;
-	padding: 0;
-	margin:0;
-
-}
-.retra{
-	width: auto;
-	height: 250px;
-
-	margin-top: 30px;
-}
-.color{
-	width: auto;
-	height: 250px;
-
-	margin-top: 30px;
-}
-.black{
-	width: auto;
-	height: 250px;
-
-	margin-top: 30px;
-}
-.japo{
-	/*width: auto;*/
-	height: 250px;
-
-	margin-top: 30px;
+.slick{
+	width: 650px;
 }
