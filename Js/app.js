@@ -1,34 +1,36 @@
-	// var i = 0;
+	// Author: Jason Jimenez
 $(document).on("ready", main);
 
 	var m = 1;
 	var mobile = window.matchMedia('(max-width: 768px)');
 
 function main(){
-	// var control = setInterval(cambiarSlider, 15000);
-	slick();
+
+	navGalery();
 	slick_main();
 	menu_left();
 	checkPosition(); 
 }
 
-// function cambiarSlider(){
-// 	i++;
-// 	if(i == $("#slider img").size()){
-// 		i = 0;
-// 	}
-// 	$("#slider img").hide();
-// 	$("#slider img").eq(i).fadeIn("medium");
-// }
-
-function slick(){
-	$('.slick').slick({
-  		infinite: true,
-  		autoplay: true,
-  		autoplaySpeed: 5000,
-  		arrows : true,
-  		slidesToShow: 4,
-  		slidesToScroll: 4
+function navGalery(){
+	jQuery('.slick').slick({
+		infinite: true,
+			autoplay: true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		utoplay: true,
+			autoplaySpeed: 5000,
+		arrows : true,
+		responsive: [
+		 {
+		   breakpoint: 768,
+		   settings: {
+		     slidesToShow: 2,
+		     slidesToScroll: 2,
+		     arrows : true,
+		   }
+		 }
+		]
 	});
 }
 function slick_main(){
